@@ -1,0 +1,161 @@
+
+
+.HeaderClass {
+    background : #121212;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 57px; 
+}
+
+
+body {
+    background: black;
+    width: 100%;
+    margin: 0;
+}
+
+/* span {
+    color: white;
+    font-weight: 700;
+    margin-right: 5%;
+    margin-left: 5%;
+
+} */
+
+.PageClass {
+    background: white;
+    width: 85%;
+    min-height: 700px;
+    margin: 0 auto;
+}
+
+.ListClass {
+    display: inline-block;
+    margin-left: 2%;
+    width: 65%;
+
+}
+
+
+
+
+ol img{
+    width: 40px; 
+    height: auto;
+    margin: 1%; 
+}
+
+ol li {
+    display: flex;     
+    border: 1px solid gray;
+    margin-top: -1px;
+    margin-left: -1px;
+    border-radius: 2.5px;
+}
+
+ol {
+    padding: 0;
+    margin: 0;
+}
+
+.RightInfoClass {
+    display: inline-block;
+    width: 25%;
+    margin-left: 3%
+}
+
+
+.TitleTextClass {
+    margin-left: 3%;
+    line-height: 0.5;
+}
+
+
+.text-with-line::before {
+    content: ''; 
+    position: absolute;
+    left: 0; 
+    top: 0;
+    bottom: 0; 
+    width: 5px; 
+    background-color: yellow; 
+}
+
+.text-with-line {
+    position: relative;
+    padding-left: 20px; 
+}
+
+.third-text-in-title {
+    color: gray;
+}
+
+.remove-text-mar {
+   padding-top: 80px;
+}
+
+
+.MainIMDbClass {
+    border-style: solid; 
+    border-width: 2.5px 4px 2.5px 4px; 
+    border-color: #f5c518; 
+    background: #f5c518;
+    color: black;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: 'Roboto Bolt', sans-serif;
+    font-weight: 900;
+    margin-left: 9%;
+    margin-right: 1.5%;
+    text-shadow: 2px solid black;
+}
+
+.text-with-lines {
+    position: relative;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Roboto';
+    margin-right: 1%
+  }
+  
+
+  .searchClass {
+    display: flex; 
+    flex-direction: row-reverse; 
+    background: #ffffff;
+    border-style: solid; 
+    border-width: 6px 4px 6px 4px; 
+    border-color: #ffffff; 
+    width: 47%;
+    align-items: center;
+    border-radius: 5px;
+  }
+
+.labelClass {
+    margin-right: 1%; 
+    margin-left: 1%;
+    background: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "Roboto", "Helvetica", "Arial" , "sans-serif";
+    border: 1px solid yellow;
+    padding-right: 10px;
+  }
+
+.inputClass {
+    width: 100%;
+    border: none; 
+  }
+
+
+/* .labelClass::after {
+    content: ''; 
+    position: absolute;
+    right: -5px; 
+    top: 0;
+    bottom: 0;
+    width: 5px; 
+    background-color: yellow;
+} */
