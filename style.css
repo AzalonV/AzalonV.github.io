@@ -121,18 +121,28 @@ h1 {
     }
     
     .agitation-text {
-        font-size: 16px;
+        text-align: justify;
+        word-break: break-all;
+        word-wrap: break-word;
+        hyphens: auto; /* Автоматичний розрив слів */
     }
 
     .donation-box {
         font-size: 18px;
     }
+
+    agitation-text::after {
+        content: "";
+        display: inline-block;
+        width: 100%;
+      }
     
     .donate-btn {
         font-size: 16px;
         padding: 10px;
     }
 }
+
 
 
 .ink-fade {
@@ -148,4 +158,3 @@ h1 {
 .fade-out {
     opacity: 0;
 }
-
