@@ -1,1 +1,132 @@
+/* Загальні стилі для сторінки */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Контейнер для тексту */
+.agitation-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-left: 8px solid #003366;
+}
+
+/* Заголовок */
+.agitation-container h1 {
+    font-size: 28px;
+    color: #003366;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* Підзаголовок */
+.agitation-container h2 {
+    font-size: 22px;
+    color: #0056b3;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Основний текст */
+.agitation-text {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+    text-align: justify;
+}
+
+/* Виділення важливих фрагментів */
+.agitation-text strong {
+    color: #d9534f;
+    font-weight: bold;
+}
+
+.agitation-text em {
+    color: #007bff;
+    font-style: italic;
+}
+
+/* Контейнер для реквізитів */
+.donation-box {
+    background-color: #fffbcc;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    border: 2px dashed #ffcc00;
+}
+
+/* Коментар до донату */
+.donation-comment {
+    font-size: 18px;
+    color: #d9534f;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Стилі для хоругви */
+.banner {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto 20px;
+    border-radius: 8px;
+    border: 3px solid #003366;
+}
+
+/* Приховане повідомлення */
+.hidden-message {
+    color: white;
+    font-size: 18px;
+}
+
+/* Кнопка заклику до дії */
+.donate-btn {
+    display: block;
+    width: 80%;
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 12px 20px;
+    background-color: #28a745;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out;
+}
+
+.donate-btn:hover {
+    background-color: #218838;
+}
+
+/* Адаптивність для мобільних пристроїв */
+@media (max-width: 600px) {
+    .agitation-container {
+        padding: 15px;
+    }
+    
+    .agitation-text {
+        font-size: 16px;
+    }
+
+    .donation-box {
+        font-size: 18px;
+    }
+    
+    .donate-btn {
+        font-size: 16px;
+        padding: 10px;
+    }
+}
 
