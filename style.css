@@ -6,6 +6,10 @@ body {
     padding: 20px;
 }
 
+h1 {
+    margin-bottom: 10px; 
+}
+
 /* Контейнер для тексту */
 .agitation-container {
     max-width: 800px;
@@ -78,7 +82,7 @@ body {
     display: block;
     max-width: 100%;
     height: auto;
-    margin: 0 auto 20px;
+    margin: 20px auto; /* Додає відступ зверху і знизу */
     border-radius: 8px;
     border: 3px solid #003366;
 }
@@ -128,5 +132,20 @@ body {
         font-size: 16px;
         padding: 10px;
     }
+}
+
+
+.ink-fade {
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    transition: opacity 3s ease-in-out;
+}
+
+.fade-out {
+    opacity: 0;
 }
 
