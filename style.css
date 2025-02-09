@@ -122,9 +122,8 @@ h1 {
     
     .agitation-text {
         text-align: justify;
-        word-break: break-all;
-        word-wrap: break-word;
-        hyphens: auto; /* Автоматичний розрив слів */
+        font-size: 40%;
+        /* word-break: break-all; */
     }
 
     .donation-box {
@@ -141,20 +140,4 @@ h1 {
         font-size: 16px;
         padding: 10px;
     }
-}
-
-
-
-.ink-fade {
-    font-size: 28px;
-    font-weight: bold;
-    text-transform: uppercase;
-    color: black;
-    text-align: center;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-    transition: opacity 3s ease-in-out;
-}
-
-.fade-out {
-    opacity: 0;
 }
