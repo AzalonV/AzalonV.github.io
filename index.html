@@ -54,7 +54,7 @@
         <p class="donation-comment">💬 Робимо донатики з коментарем: <strong>"Граю - допомагаю"</strong></p>
 
         <p class="agitation-text ink-fade" id="fadeText">
-            Правда завжди перед тобою 
+            Шукай істину
         </p>
     </div>
 
@@ -65,8 +65,10 @@
             const observer = new IntersectionObserver(entries => {
                 entries.forEach(entry => {
                     if (entry.isIntersecting) {
-                        text.classList.add("fade-out");
-                    }
+                    setTimeout(() => {
+                    text.classList.add("fade-out");
+                }, 1000); // 2000 мс = 2 секунди
+            }
                 });
             });
     
