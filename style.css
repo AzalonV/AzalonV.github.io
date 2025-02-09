@@ -145,13 +145,19 @@ h1 {
 
 
 .ink-fade {
-    font-size: 28px;
+    font-size: 32px;
     font-weight: bold;
     text-transform: uppercase;
-    color: black;
+    color: white;
     text-align: center;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-    transition: opacity 3s ease-in-out;
+    padding: 20px;
+    background: radial-gradient(circle at center, #1e3c72, #2a5298, #2c5364);
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    transition: opacity 5s ease-in-out, transform 2s ease-in-out;
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .fade-out {
